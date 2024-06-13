@@ -1,0 +1,42 @@
+body{
+    background-image: url(../ITENS/fundonuvem-sobre-nos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-text {
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 150px; /* Espaçamento interno */
+    display: flex;
+    margin-right: 20px; 
+    color: white;
+    justify-content: space-between;
+}
+
+.texto {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 50px; /* Espaço inferior */
+    max-width: calc(50% - 20px); /* Largura máxima de 50% menos o espaçamento entre os textos */
+}
+
+/* Estilo para o primeiro texto */
+.texto-maior p {
+    font-size: 100px; /* Tamanho da fonte maior */
+}
+
+/* Estilo para os parágrafos */
+.texto p {
+    margin: 0;
+    font-size: 26px;
+}
+
+.espaco-superior {
+    height: 20px; /* Espaço superior */
+}
+
+/* Desgruda o primeiro texto da margem esquerda */
+.texto:first-child {
+    margin-left: 0;
+}

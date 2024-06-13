@@ -1,0 +1,25 @@
+body {
+    background-image: url(../ITENS/nuvensimag.png);
+}
+
+.loginempresa{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 70px;
+    top: -28px; /* Distância do topo da imagem */
+    right: 432px; 
+}
+
+
+
+/* ESPAÇO ENTRE IMAGENS */
+.boximagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Cria duas colunas de igual tamanho */
+    gap: 60px; /* Espaçamento entre as imagens */
+    padding: 20px; /* Espaçamento interno opcional */
+   
+
+
+}

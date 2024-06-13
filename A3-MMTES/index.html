@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil!">
+  <title>CODING-PLANET</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto&family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="./htmls/login.html">coding planet</a></div>
+        <ul class="links">
+           <li><a href="https://discord.gg/4FFxNVgXhQ">COMUNIDADE</a></li>
+           <li><a href="htmls/feedback.html">FEEDBACK</a></li>
+           <li><a href="https://github.com/Pobrezito/A3">OPEN SOURCE</a></li>
+           <li><a href="htmls/regras.html">REGRAS</a></li>
+        </ul>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <section class="conteudo-principal">
+      <div class="conteudo-principal-escrito">
+        <h1 class="conteudo-principal-escrito-titulo">GOSTOU?</h1>
+        <h2 class="conteudo-principal-escrito-subtitulo">clique aqui e saiba mais : </h2>
+        <button class="conteudo-principal-escrito-botao" onclick="irParaPagina()">CODE PLANET</button>
+
+        <script>
+            function irParaPagina() {
+                window.location.href = "htmls/login.html";
+            }
+        </script>
+        
+
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <h1 id="logo">coding planet</h1>
+
+            <div id="footer_social_media">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=codingplanet01@gmail.com&su=Assunto do Email&body=Corpo do Email" class="footer-link" id="google">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                
+
+                <a href="" class="footer-link" id="discord">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a href="https://github.com/Pobrezito/A3" class="footer-link" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div id="footer_subscribe">
+            <h3>Inscreva-se</h3>
+            <p>
+                Digite seu e-mail para ser notificado sobre
+                nossas novidades e atualizações
+            </p>
+            <div id="input_group">
+                <input type="email" id="email">
+                <button id="sendEmailBtn"> <!-- Adicionando o id "sendEmailBtn" ao botão -->
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+        <script>
+            document.getElementById('sendEmailBtn').addEventListener('click', function() {
+                // Obter o valor do email
+                var email = document.getElementById('email').value;
+        
+                // Enviar o email para o banco de dados (substitua esta parte com sua lógica de envio para o banco de dados)
+                // Aqui, vou apenas imprimir o email no console para demonstração
+                alert('Email enviado para o banco de dados:');
+        
+                // Limpar o campo de entrada após enviar
+                document.getElementById('email').value = '';
+            });
+        </script>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

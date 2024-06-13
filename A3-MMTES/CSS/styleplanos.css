@@ -1,0 +1,75 @@
+body{
+    background-image: url(../ITENS/fundonuvem-sobre-nos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.planos-container {
+    display: flex;
+    justify-content: space-around; /* Distribui as caixas de forma uniforme */
+    align-items: center;
+    padding: 20px;
+    gap: 20px; /* Define o espaçamento entre as caixas de texto */
+    margin-top: 50px;
+    margin: 60px;
+
+
+}
+
+.plano {
+    background-color: #302A74; /* Cor de fundo diferente */
+    border: 1px solid rgb(41, 216, 255);
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 10px;
+    width: 30%; /* Ajusta a largura das caixas */
+    max-width: 300px; /* Define um comprimento máximo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    font-family: 'Marcellus SC', serif; /* Usando a fonte Marcellus SC como fonte padrão */
+}
+
+.planos-titulo {
+    margin-bottom: 15px;
+    color: #ffffff;
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+.saibamais-titulo{
+ position: relative;
+    
+}
+.imagem-saibamais{
+  position: absolute; 
+    top: 300px; /* Distância do topo */
+    right: 50px; /* Distância da borda direita */
+}
+.separador {
+    width: 374px;
+    border: 1px solid #ffffff;
+    margin: 10px; /* Remove a centralização */
+    margin-top: 60px
+}
+
+
+.plano h2 {
+    margin-top: 0;
+}
+
+.plano p {
+    margin: 10px 0 0;
+}
+
+
+
+
+/* Centralizador de div!!!! */
+.saiba-mais{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 30px;
+}

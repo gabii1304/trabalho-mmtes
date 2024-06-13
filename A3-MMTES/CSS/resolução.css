@@ -1,0 +1,42 @@
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+  .img-avaliação-pai{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+ .img-avaliação{
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+
+.titulo-usuario-pai{ 
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+
+.titulo-usuario{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+}
+
+.saiba-mais{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 30px;
+}
+

@@ -1,0 +1,43 @@
+body{
+background-image: url(../ITENS/estrelas-funcoimagem.png);
+font-family: 'Pixelify Sans';
+}
+
+.box{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 60px;
+}
+
+.principal-box{
+    margin: 60px;
+}
+
+
+.input-box {
+    width: 500px; /* Largura da caixa de texto */
+    margin: auto;
+
+}
+
+input[type="text"] {
+    width: 100%; /* Preenche a largura da caixa de texto */
+    height: 300px; /* Define a altura da caixa de texto */
+    padding: 10px; /* Espaçamento interno */
+    border: 3px solid #ccc; /* Borda da caixa de texto */
+    border-radius: 5px; /* Arredonda as bordas */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    outline: none; /* Remove a borda de foco ao clicar na caixa de texto */
+}
+input[type="text"]:focus {
+    border-color: #007bff; /* Cor da borda ao focar na caixa de texto */
+}
+
+.input-buton{
+    display: flex;
+    justify-content:center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 30px;
+    margin-bottom: 50px;
+}

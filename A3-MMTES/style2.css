@@ -1,0 +1,11 @@
+
+.formcontact{
+    display: flex;
+    justify-content:left; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+margin-top: 40px;
+}
+

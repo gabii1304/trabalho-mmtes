@@ -1,0 +1,302 @@
+
+body {
+    background-color:  rgba(17, 11, 82, 1);
+}
+.navbar {
+    background-color:  rgba(17, 11, 82, 1);
+    padding: 10px 0;
+   
+    
+}
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+ /* styles.css */
+.separator {
+    border: 1px solid #ffffff; /* Estilo da linha */
+    margin: 5px 0; /* Espaçamento acima e abaixo da linha */
+    margin: 0 40px; /* Espaçamento nos lados da linha */
+}
+ 
+
+@font-face {
+    font-family: 'Marcellus SC';
+    src: url(../ITENS/Marcellus_SC.zip) format('woff2'), /* Formato WOFF2 para navegadores modernos */
+         url(../ITENS/Marcellus_SC.zip) format('woff'); /* Formato WOFF para compatibilidade com navegadores mais antigos */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Marcellus SC', serif; /* Usando a fonte Marcellus SC como fonte padrão */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items li {
+    margin: 0 20px;
+   
+}
+
+.nav-items a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s;
+    font-family: 'Marcellus SC', serif; 
+}
+
+
+.nav-items a:hover {
+    color:rgba(244, 251, 255, 0.3);
+}
+
+/* Esconde a caixa de seleção inicialmente */
+.login-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 100;
+}
+
+/* Estilo para a caixa de seleção */
+.login-dropdown select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #C4C4C4;
+    color: #fff;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-content .social-media,
+.footer-content .contact-info {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+    .footer-content .social-media,
+    .footer-content .contact-info {
+        margin: 10px 0;
+    }
+    footer {
+        width: 100%;
+        color: var(--color-neutral-40);
+    }
+    
+    #logo {
+      font-family: 'Pixelify Sans';
+    }
+    
+    .footer-link {
+        text-decoration: none;
+    }
+    
+    #footer_content {
+        background-color: var(--color-neutral-10);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 3rem 3.5rem;
+    }
+    
+    #footer_contacts h1 {
+        margin-bottom: 0.75rem;
+    }
+    
+    #footer_social_media {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+    } 
+    
+    #footer_social_media .footer-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        color: var(--color-neutral-40);
+        border-radius: 50%;
+        transition: all 0.4s;
+    }
+    
+    #footer_social_media .footer-link i {
+        font-size: 1.25rem;    
+    }
+    
+    #footer_social_media .footer-link:hover {
+        opacity: 0.8;
+    }
+    
+    #google {
+        background-color: #d62d20;
+        background: linear-gradient(#ffffff);
+    }
+    
+    #discord {
+        background-color: #7289da;
+    }
+    
+    #github {
+        background-color: #171515;
+    }
+    
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        list-style: none;
+    }
+    
+    .footer-list .footer-link {
+        color: var(--color-neutral-30);
+        transition: all 0.4s;
+    }
+    
+    .footer-list .footer-link:hover {
+        color: #ac80df;
+    }
+    
+    #footer_subscribe {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        justify-content: flex-end;
+        right: 0%;
+        left: 200%;
+        position: relative;
+    }
+    
+    #footer_subscribe p {
+        color: var(--color-neutral-30);
+    }
+    
+    #input_group {
+        display: flex;
+        align-items: center;
+        background-color: var(--color-neutral-0);
+        border-radius: 10px;
+    }
+    
+   
+    
+    #input_group button {
+        background-color: #7f37c9;
+        border: none;
+        color: var(--color-neutral-40);
+        padding: 0px 1.25rem;
+        font-size: 1.125rem;
+        height: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    
+    #input_group button:hover {
+        opacity: 0.8;
+    }
+    
+    #footer_copyright {
+        display: flex;
+        justify-content: center;
+        background-color: var(--color-neutral-0);
+        font-size: 0.9rem;
+        padding: 1.5rem;
+        font-weight: 100;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #footer_content {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+    }
+    
+    @media screen and (max-width: 426px) {
+        #footer_content {
+            grid-template-columns: repeat(1, 1fr);
+            padding: 3rem 2rem;
+        }
+    }

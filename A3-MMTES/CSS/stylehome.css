@@ -1,0 +1,25 @@
+.container-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; /* Ajusta a altura conforme necessário */
+    padding: 0 20px; /* Adiciona espaçamento nas laterais */
+}
+
+.content-left {
+    margin-top: 0px;
+}
+
+.content-left p {
+color: white;
+font-size: 26px;
+}
+
+.content-right {
+    flex-shrink: 0; /* Não encolhe o tamanho */
+    margin-left: 20px; /* Adiciona espaçamento à esquerda */
+}
+
+.content-right img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o espaço disponível */
+}
